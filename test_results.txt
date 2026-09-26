@@ -1,0 +1,22 @@
+GFC Financial Chatbot – Test Results
+====================================
+
+Test 1: "What is the total revenue?"
+Response: Correctly returns FY 2025 revenue for Microsoft ($281.7 B), Apple ($416.2 B), Tesla ($94.8 B).
+
+Test 2: "How has net income changed over the last year?"
+Response: Correctly reports Microsoft +15.5%, Apple +19.5%, Tesla -46.1%.
+
+Test 3: "What is the operating cash flow?"
+Response: Correctly returns Microsoft $136.2 B, Apple $111.5 B, Tesla $14.7 B.
+
+Test 4: "Which company performed best?"
+Response: Correctly ranks Microsoft as strongest growth, Apple as highest-quality cash generator, Tesla as transitional.
+
+Test 5: "Give me key insights"
+Response: Returns the three-point summary from the Task-1 analysis.
+
+Test 6: Unrecognized query ("What is the weather?")
+Response: Fallback message listing the five supported queries.
+
+All predefined queries pass. Fallback behaves as expected.
